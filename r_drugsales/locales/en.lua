@@ -1,0 +1,51 @@
+Language = Language or {}
+Language['en'] = {
+
+    command_help = 'Abrir el menú de venta de drogas',
+
+    drug_sales = 'Venta de drogas',
+    sell_here = 'Vender aquí',
+    cancel_selling = 'Cancelar venta',
+    bulk_order = 'Pedido por mayor',
+    offer_drugs = 'Ofrecer drogas',
+    retrieve_drugs = 'Recuperar drogas',
+    meetup_location = 'Punto de encuentro',
+    make_exchange = 'Realizar intercambio',
+
+    no_police_allowed = '¡La policía no tiene permitido vender drogas!',
+    not_enough_police = '¡No hay suficientes policías de servicio para vender drogas!',
+    already_selling = '¡Ya estás vendiendo drogas!',
+    not_in_zone = '¡No estás en una zona donde puedas vender drogas!',
+    cant_in_vehicle = '¡No puedes vender drogas mientras estás en un vehículo!',
+    no_drugs = '¡No tienes suficientes drogas para vender!',
+    wait_for_customer = 'Esperá a que un cliente se acerque...',
+    no_customers_found = 'No hay clientes cerca. Probá en otra zona para vender.',
+    sale_abandoned = '¡Abandonaste la venta!',
+    sale_cancelled = 'Venta callejera cancelada.',
+    took_too_long = '¡Tardaste demasiado y el cliente se fue!',
+    offer_rejected = '¡El cliente rechazó tu oferta!',
+    sale_completed = '¡Vendiste %s %s por $%s!',
+    sale_robbed = '¡El cliente te robó!',
+    robber_escaped = '¡El ladrón escapó!',
+    robber_caught = '¡Atrapaste al ladrón!',
+    bulk_cooldown = '¡Debés esperar %s minutos entre ventas al por mayor!',
+    bulk_sales_disabled = '¡Las ventas al por mayor están deshabilitadas actualmente!',
+    bulk_meetup_unavailable = '¡No hay puntos de encuentro disponibles en este momento!',
+    head_to_meetup = '¡Dirigite al punto de encuentro para completar la venta!',
+
+    item = 'Ítem',
+    count = 'Cantidad',
+    price = 'Precio',
+    cancel = 'Cancelar',
+    offer = 'Ofrecer',
+    dialing = 'Llamando',
+    decline = 'Rechazar',
+    accept = 'Aceptar',
+
+    item_required = 'El ítem es obligatorio',
+    bulk_order_body = 'El cliente busca %sx %s por $%s',
+
+    bridge_loaded = 'Bridge cargado correctamente.',
+    update_bridge = '¡Actualizá r_bridge a la versión 3.0.0 o superior!',
+    debug_enabled = '¡El modo debug está ACTIVADO! ¡NO ejecutes esto en producción!',
+}
